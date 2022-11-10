@@ -68,4 +68,4 @@ movies_final.reset_index()
 
 #---------------------------------------------------------------------------------------------
 # username - title dataframe export
-movies_final[["username", "title"]].to_csv(os.path.join(path, "Network", "net_data.csv"))
+movies_final[["username", "title"]].to_csv(os.path.join(path, "Network", "net_data.csv"), index = False)
